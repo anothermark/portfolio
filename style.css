@@ -1,0 +1,95 @@
+/* General Setup */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.portfolio-container {
+    max-width: 900px;   /* Limits the width to exactly 800px */
+    margin: 0 auto;     /* Centers the container horizontally on the screen */
+    padding: 5px 20px 20px 20px; /* Reduces top padding to 5px, keeps sides/bottom at 20px */
+}
+
+header {
+    text-align: center;
+    margin-top: 10px;      /* Reduces space between the very top of the screen and the title */
+    margin-bottom: 20px;   /* Reduces space between the subtitle and your table */
+}
+
+header h1 {
+    margin-top: 0;         /* Strips away default browser spacing above the main title */
+    margin-bottom: 5px;    /* Tightens space between main title and subtitle */
+}
+
+header p {
+    margin-top: 0;         /* Tightens space above the subtitle text */
+    margin-bottom: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;        /* Forces the table to expand to the full 800px container */
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.col-thumb { width: 25%; }
+.col-desc { width: 75%; }
+
+/* Thumbnails */
+.clickable-thumb {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 1px solid #ddd;
+}
+
+.clickable-thumb:hover {
+    transform: scale(1.05);
+}
+
+/* Typography & Buttons */
+h3 { margin-top: 0; color: #2c3e50; }
+.links { margin-top: 15px; }
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.btn:hover { background-color: #2980b9; }
+.btn-secondary { background-color: #7f8c8d; }
+.btn-secondary:hover { background-color: #95a5a6; }
