@@ -12,3 +12,5 @@ Portfolio studentapp_data/
 .project
 .classpath
 bin/
+
+.metadata/
